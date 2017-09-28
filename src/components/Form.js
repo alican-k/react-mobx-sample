@@ -24,7 +24,6 @@ const Comp = ({name, age, gender, onNameChange, onAgeChange, onGenderChange, add
 
   </div>)
 }
-//<input type='text' className='user-props' value={gender} placeholder='Gender' onChange={onGenderChange} />
 export default compose(
   inject('store'),
   withStateHandlers(
