@@ -3,7 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import { Provider } from 'mobx-react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import store from './store'
+import store from './store/store'
 import Main from './components/Main'
 import Edit from './components/Edit'
 

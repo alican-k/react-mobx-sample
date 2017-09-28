@@ -18,7 +18,7 @@ And usually the component that is used from outside is the container component.
 
 A sample of this usage:
 
-```diff
+```js
 const Comp = ({ users }) =>
   <ul className='no-bullet'>
     {users.map((user,i) => <User {...user} key={i}/>)}
