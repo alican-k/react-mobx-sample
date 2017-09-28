@@ -7,7 +7,7 @@ const users = observable([
 const addUser = action(
   ({name, age, gender}) => {
     const ageInt = parseInt(age, 10)
-
+    console.log('about to be added:', name, age, gender)
     if (notEmptyString(name) && positiveNumber(ageInt) && isGender(gender) && !nameExists(name)) {
       users.push({name, age: ageInt, gender})
     } else {
