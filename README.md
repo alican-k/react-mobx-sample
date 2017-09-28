@@ -7,7 +7,7 @@ For now, differences between the two are environment and the usage of react rout
 
 I have used mobx 6 months ago for a project. This experimental project helped me to remember.
 
-Also, today I have met with `mobx-state-tree`. Loved it!
+Also, today I have met with `mobx-state-tree`. I did not used it in this project but loved it!
 
 ## Presentational & Container Components
 
