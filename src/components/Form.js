@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.js'
 import { inject } from 'mobx-react'
-import { compose, /* withState,*/ withHandlers, withStateHandlers } from 'recompose'
+import { compose, withHandlers, withStateHandlers } from 'recompose'
 import { withRouter } from 'react-router-dom'
 
 const Comp = ({name, age, gender, onNameChange, onAgeChange, onGenderChange, addUser, editUser, type='add'}) => {
